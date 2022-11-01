@@ -1,8 +1,8 @@
 const loginFormHandler = async (event) => {
   event.preventDefault();
 
-  const email = document.querySelector('#email-login').value.trim();
-  const password = document.querySelector('#password-login').value.trim();
+  const email = document.querySelector('.username-login');
+  const password = document.querySelector('.password-login');
 
   if (email && password) {
     const response = await fetch('/api/users/login', {
@@ -19,6 +19,5 @@ const loginFormHandler = async (event) => {
   }
 };
 
-document
-  .querySelector('.login-form')
-  .addEventListener('submit', loginFormHandler);
+document.querySelector('.login-form');
+document.addEventListener('click', loginFormHandler);
