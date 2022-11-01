@@ -1,0 +1,76 @@
+
+  <body>
+    <div class="profile">
+      <div class="row">
+        <header class="profileHead bg-secondary">
+          <div class="col-sm-9">
+            <h1 class="mt-2">Fan Fury</h1>
+          </div>
+          <div class="col-sm-3 align-self-end">
+            <p class="username mt-2">name:</p>
+            
+            <img
+            class="logo border rounded-circle"
+            id="ATL"
+            src="/images/atlanta-falcons-logo.png"
+            alt="Atlanta Falcons Logo"
+          />
+          </div>
+        </header>
+      </div>
+      
+        <div class="row ">
+          <div class="col-4  m-5">
+        <div  id = newsFeed class="newsFeed  bg-secondary">
+          <h2>News Feed:</h2>
+        
+          <!-- <button class="btn btn-primary d-inline-block">Reload Stats</button> -->
+          
+          <div class="card d-inline-block  " style="width: 18rem;">
+            <div class="card-body ">
+              <h5 id=""class="card-title">Team stats for this season:</h5>
+              <p  id="passing" class="card-text  "></p>
+              <p id="rushing" class="card-text"></p>
+              <p id="touchdowns" class="card-text"></p>
+              <p id="field" class="card-text"></p>
+              <p id="fumbles" class="card-text"></p>
+              <p id="firstDowns" class="card-text"></p>
+              <p id="interceptions" class="card-text"></p>
+            </div>
+          
+          </div>
+          <div class="card d-inline-block" style="width: 18rem;">
+            <div class="card-body ">
+              <h5>Team Standings this Season</h5>
+              <p id="teamName"class="card-title"></p>
+              <p id="wins" class="card-text"></p> 
+              <p id="losses" class="card-text"></p>
+              <p id="conference" class="card-text"></p>
+              <p id="conferenceRank" class="card-text"></p>
+              <p id="division" class="card-text"></p>
+              <p id="divisionRank" class="card-text"></p>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+          
+          <div class="col-3"></div>
+        <div class=" col m-5">
+          
+        <div class=" bg-secondary social">
+          
+          <p>About Me:</p>
+          <p>favorite Team(s):</p>
+          <p>Friends:</p>
+          
+          <p>Messages:</p>
+          <div id="">
+          <input class=" rounded input" type="text" placeholder="Type message:"> <button class="btn btn-dark">Send</button>
+        </div>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+  <script src="/public/js/apiJava.js"></script>

@@ -1,0 +1,142 @@
+.intro {
+  background-image: url(/public/images/footbal2.jpg);
+  height: 100vh;
+}
+
+.fan {
+  font-size: 100px;
+  color:black;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  padding-top:100px;
+}
+
+.fury {
+  color: gold;
+  }
+.login {
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  margin: auto; 
+  width: 300px;
+  margin-top:250px;
+  padding:30px;
+  border: solid black 3px;
+  
+}
+.accountregister{
+  background-image: url(/public/images/footballfield.jpg);
+  background-size: 2500px;
+  height: 100vh;
+}
+.register {
+  display: flex;
+  background-color: gold;
+  display: flex;
+  justify-content: center;
+  margin: auto; 
+  width: 300px;
+  padding:30px;
+  border: solid black 3px;
+  justify-content: space-around;
+  
+}
+.accounthead {
+  color:gold;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  margin-bottom: 600px;
+}
+
+.logo:hover {
+  height: 200px;
+  width: 200px;
+}
+.pass2 {
+  display: none;
+}
+.pass3{
+  display: none;
+}
+.logo{
+  height: 150px;
+  width: 150px;
+  border: solid black 5px;
+  background-color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: auto;
+  margin-bottom: 20px;
+  }
+  .teamSelect{
+    background-image: url(/public/images/nfl-locker-room.webp);
+    background-size: 2600px;
+  height: 100vh;
+  }
+  .teamHeader{
+    display: flex;
+    font-size: 50px;
+    color:black;
+    font-weight: bolder;
+    padding-bottom: 200px;
+    margin-left: 150px;
+    padding-top: 50px;
+    }
+  .teamLogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin: auto;
+   
+    
+  }
+ 
+ .profileHead{
+  border: solid black 5px;
+  display: flex;
+  
+ }
+.profileHead h1 {
+display: flex;
+justify-content: center;
+position:absolute;
+left:0;
+right: 0;
+}
+.pic{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  float: right
+
+}
+.username {
+font-size: 30px;
+font-weight: bolder;
+
+}
+.profile {
+background-image: url(/public/images/cardboard-fans.jpg);
+background-size: 2500px;
+height: 100vh;
+}
+.newsFeed {
+border: solid black 5px;
+height: 50vh ;
+font-weight: bold;
+}
+.social {
+border: solid black 5px;
+height: 50vh;
+font-size: 30px;
+font-weight: bold;
+}
+.about{
+width: 235px;
+border: solid black 2px;
+}

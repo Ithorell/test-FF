@@ -1,0 +1,27 @@
+{
+  "name": "fan_fury",
+  "version": "1.0.0",
+  "description": "Fan fury website with chat app included.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js",
+    "dev": "nodemon server.js"
+  },
+  "homepage": ".handlebars",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.3.5",
+    "socket.io": "^4.5.3"
+  }
+}
