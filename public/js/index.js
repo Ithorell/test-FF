@@ -9,9 +9,9 @@ $(".search").click(function (event) {
 });
 
 
-$(".home").click(event => location.replace("/"));
+$("#register-form").click(event => location.replace("/register"));
 
-$(".login").click(event => location.replace("/login"));
+$("#login-form").click(event => location.replace("/profile"));
 
 $(".post").click(event => location.replace("/post"));
 
