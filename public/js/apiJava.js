@@ -15,7 +15,7 @@ document.querySelectorAll('.logo').forEach((item) => {
     newTeam = team;
     getSeason();
     getStangings();
-    getSchedule();
+    // getSchedule();
   });
 });
 
