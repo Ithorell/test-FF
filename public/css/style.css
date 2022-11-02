@@ -1,5 +1,5 @@
 .intro {
-  background-image: url(/public/images/footbal2.jpg);
+  background-image: url(/images/footbal2.jpg);
   height: 100vh;
 }
 
@@ -27,7 +27,7 @@
   
 }
 .accountregister{
-  background-image: url(/public/images/footballfield.jpg);
+  background-image: url(/images/footballfield.jpg);
   background-size: 2500px;
   height: 100vh;
 }
@@ -73,7 +73,7 @@
   margin-bottom: 20px;
   }
   .teamSelect{
-    background-image: url(/public/images/nfl-locker-room.webp);
+    background-image: url(/images/nfl-locker-room.webp);
     background-size: 2600px;
   height: 100vh;
   }
@@ -121,7 +121,7 @@ font-weight: bolder;
 
 }
 .profile {
-background-image: url(/public/images/cardboard-fans.jpg);
+background-image: url(/images/cardboard-fans.jpg);
 background-size: 2500px;
 height: 100vh;
 }
