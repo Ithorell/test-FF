@@ -35,6 +35,13 @@ User.init(
         len: [8],
       },
     },
+    teamInfo: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        isString: true
+      }
+    }
   },
   {
     hooks: {
